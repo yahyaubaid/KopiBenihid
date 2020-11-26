@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">KopiBenih.id</string>
+    <string name="kopi_name">Kopi</string>
+    <string name="detail">Detail</string>
+
+    <style name="TextContent" parent="@style/TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+    </style>
+
+    <style name="TextContent.Black">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".DetailKopi">
+
+    <ImageView
+        android:id="@+id/img_item_photo"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:scaleType="centerCrop"
+        android:background="@color/colorAccent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tv_item_harga"
+        style="@style/TextContent.Black"
+        android:layout_below="@+id/img_item_photo"
+        android:layout_marginTop="7dp"
+        android:text="string/harga"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/tv_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_item_photo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="75dp"
+        android:text="@string/kopi_name"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_item_deskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_item_name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="11dp"
+        android:text="@string/detail" />
+
+
+</RelativeLayout>
